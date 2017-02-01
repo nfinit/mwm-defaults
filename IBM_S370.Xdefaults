@@ -1,0 +1,23 @@
+! IBM System/370-ish color scheme for mwm
+! Intended for use with MVS Turnkey system hosts
+! For solid color background:
+! insert "xsetroot -solid '#151515'" into .xinitrc before aliases
+
+! Set blue active window color
+Mwm*activeBackground: #4191CC
+
+! Set grey inactive window color
+Mwm*background: #585858
+
+! Set red inactive icon color
+Mwm*icon*background: Red
+
+! Set turquoise active icon color (similar to S/370 start button)
+Mwm*icon*activeBackground: #1F755A
+
+! Remove image from iconified windows (makes them look more like buttons)
+Mwm*iconDecoration: label activelabel
+
+! Reverse default xterm black on white scheme
+xterm*foreground: white
+xterm*background: black
