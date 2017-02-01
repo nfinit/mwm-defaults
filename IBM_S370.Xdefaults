@@ -1,5 +1,6 @@
 ! IBM System/370-ish color scheme for mwm
 ! Intended for use with MVS Turnkey system hosts
+
 ! For solid color background:
 ! insert "xsetroot -solid '#151515'" into .xinitrc before aliases
 
