@@ -2,7 +2,7 @@
 ! Intended for use with MVS Turnkey system hosts
 
 ! For solid color background:
-! insert "xsetroot -solid '#151515'" into .xinitrc before aliases
+! insert "xsetroot -solid '#151515'" at start of .xinitrc
 
 ! Set blue active window color
 Mwm*activeBackground: #4191CC
